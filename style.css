@@ -1,0 +1,68 @@
+body{
+	background-color: rgb(77, 0, 25);
+	color: rgb(127, 0, 46);
+	font-size: 26px;
+	font-family: 'Seaweed Script', cursive;
+}
+
+h1{
+	color: rgb(77, 0, 25);
+	font-family: 'Dancing Script', cursive;
+	font-size: 52px;
+}
+
+h2{
+	color: rgb(102, 0, 32);
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 40px;
+}
+
+h3{
+	color: rgb(102, 0, 32);
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-family: 'Niconne', cursive;
+	font-size: 30px;
+}
+
+a:hover {
+	color: rgb(77, 0, 25);
+}
+
+#pic{
+	border-radius: 8%;
+	text-shadow: 0px 0px 10px rgb(255, 255, 255)
+}
+
+#gnr{
+	border-radius: 50%;
+}
+
+@media (max-width: 800px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 650px) {
+	.container {
+		width: 480px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 340px;
+	}
+}
+
+@media (max-width: 360px) {
+	.container {
+		width: 320px;
+	}
+}
